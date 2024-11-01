@@ -1,0 +1,126 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+background-color: white;
+
+}
+.Address_Bar{
+ height: 100px;
+ width: 100%;
+ background-color: lavender;
+
+}
+
+.Left_Bar{
+ float: left;
+ background-color: limegreen;
+ color: white;
+ padding: 5px 12px;
+ border-radius: 3px;
+ position: relative;
+ top: 25px;
+ left: 10px;
+
+}
+.Right_Bar{
+ float: right;
+ padding-right: 10px;
+ position: relative;
+ top: 10px;
+ line-height: 1.5;
+ 
+}
+.Right_Bar p{
+ font-weight: bold;
+
+}
+
+.Right_Bar p a{
+ text-decoration: none;
+ font-weight: bold;
+
+}
+
+.Right_Bar p a:hover{
+ text-decoration: underline;
+ color: limegreen;
+ font-weight: bold;
+
+}
+
+.Menu_Bar{
+ height: 60px;
+ width: 100%;
+ background-color: ghostwhite;
+
+}
+.Menu_Bar ul li{
+list-style: none;
+display: inline;
+font-weight: bold;
+font-size: 18px;
+font-family: arial,monospace,verdana;
+padding-left: 25px;
+position: relative;
+top: 18px;
+
+}
+.Menu_Bar ul li a{
+ text-decoration: none;
+ padding: 5px 15px;
+ font-family: arial,monospace,verdana;
+
+}
+.Menu_Bar ul li a:hover{
+ text-decoration: none;
+ background-color: darkviolet;
+ color: white;
+ padding: 5px 15px;
+
+}
+
+.Acitve{
+ background-color: darkviolet;
+ color: #f1f1f1;
+ padding: 5px 15px;
+
+}
+
+/*-------------------------
+    Robot Works Content
+ --------------------------*/
+.Robot_Searchbar{
+ height: auto;
+ width: 80%;
+ background-color: limegreen;
+ margin-left: 10%;
+
+}
+.Data_Table{
+ margin: 0 auto;
+
+}
+
+.Search{
+ resize: none;
+ content-editable: none;
+ height: auto; 
+ width: 80%;
+ padding: 15px 30px;
+
+}
+
+.Button[type="button"]{
+ cursor: pointer;
+ padding: 8px 15px;
+ user-select: none;
+
+}
+.Back{
+ text-decoration: none;
+
+}
