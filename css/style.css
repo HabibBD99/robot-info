@@ -6,8 +6,13 @@ padding: 0;
 
 body{
 background-color: white;
+background-image: url("../images/flower.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
 
 }
+
 .Address_Bar{
  height: 100px;
  width: 100%;
@@ -96,31 +101,91 @@ top: 18px;
 .Robot_Searchbar{
  height: auto;
  width: 80%;
- background-color: limegreen;
+ border: 1px solid grey;
+ background-color: cornsilk;
+ font-weight: bold;
+ font-family: sans-serif,monospace,verdana,roboto;
  margin-left: 10%;
+ margin-top: 15px;
+ padding-bottom: 5px;
 
 }
 .Data_Table{
  margin: 0 auto;
+ user-select: none;
 
 }
 
 .Search{
  resize: none;
- content-editable: none;
- height: auto; 
+ height: 35px; 
  width: 80%;
  padding: 15px 30px;
+ font-weight: lighter;
+ font-size: 18px;
+
 
 }
 
-.Button[type="button"]{
+.Button{
  cursor: pointer;
- padding: 8px 15px;
  user-select: none;
+ content-editable: none;
+ padding: 8px 15px;
+ 
 
 }
 .Back{
  text-decoration: none;
 
 }
+.Robot_Logo{
+ height: 100px;
+ width: 150px;
+ margin: 0 auto;
+ margin-top: 5px;
+
+}
+.Robot_Image{
+ height: 100px;
+ width: 120px;
+}
+
+/*----------------------------
+    Display Card Work
+ ----------------------------*/
+.Display_Card{
+ height: 260px;
+ width: 80%;
+/* background-color: rgba(green red yellow 0.5);*/
+ border: 1px solid grey;
+ margin-left: 10%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ text-align: left;
+
+ }
+ .Text_Show{
+  padding: 10px 30px;
+  font-family: sans-serif,monospace,verdana,roboto;
+  
+ }
+
+/*------------------------------
+   Media Query Responsiv Works
+ -------------------------------*/
+ @media only screen and (min-width: 400px){
+  .Left_Bar
+  {
+     float: left;
+     background-color: red;
+     color: white;
+     padding: 5px 6px;
+     border-radius: 3px;
+     position: relative;
+     top: 25px;
+     left: 5px;
+
+     }
+
+ }

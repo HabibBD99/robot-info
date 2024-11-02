@@ -26,14 +26,14 @@
 	    	<li><a href="">Contact</a></li>
 	    </ul>
 	</div>
-	<div class="Robot_Logo">
-		
-	</div>
 </header>
 
 
 <content>
 	     <div class="Robot_Searchbar">
+	     		<div class="Robot_Logo">
+            		<img src="images/t-robot.png" class="Robot_Image">
+	           </div>
 			<table class="Data_Table">
 				<tr>
 					<th>Enter Your Search Here..?</th>
@@ -43,7 +43,7 @@
 					<td></td>
 				</tr>
 					<td>
-						<textarea  name="text" class="Search" id="search_text"></textarea>
+						<textarea name="text" class="Search" id="search_text"></textarea> 
 					</td>
 				</tr>
 				<tr>
@@ -51,14 +51,14 @@
 				</tr>
 				<tr>
 					<td>
-						<input type="button" class="Button" value="Submit" onclick="TextDisplay()">
+						<button type="button" class="Button" onclick="MyRobot()">Search</button>
 					</td>
 				</tr>
 			</table>
 	     </div>  
 
 	     <div class="Display_Card">
-	      	<p id="Text_Show"></p>
+	      	<p id="Text_Show" class="Text_Show"></p>
 	     </div>  
 </content>
 
