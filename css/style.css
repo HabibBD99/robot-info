@@ -9,8 +9,7 @@ background-color: white;
 background-image: url("../images/flower.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-
-
+ 
 }
 
 .Address_Bar{
@@ -24,6 +23,7 @@ background-size: cover;
  float: left;
  background-color: limegreen;
  color: white;
+ user-select: none;
  padding: 5px 12px;
  border-radius: 3px;
  position: relative;
@@ -74,6 +74,7 @@ position: relative;
 top: 18px;
 
 }
+
 .Menu_Bar ul li a{
  text-decoration: none;
  padding: 5px 15px;
@@ -82,15 +83,15 @@ top: 18px;
 }
 .Menu_Bar ul li a:hover{
  text-decoration: none;
- background-color: darkviolet;
+ background-color: deepskyblue;
  color: white;
  padding: 5px 15px;
 
 }
 
 .Acitve{
- background-color: darkviolet;
- color: #f1f1f1;
+ background-color: deepskyblue;
+ color: white;
  padding: 5px 15px;
 
 }
@@ -98,11 +99,13 @@ top: 18px;
 /*-------------------------
     Robot Works Content
  --------------------------*/
+
 .Robot_Searchbar{
  height: auto;
  width: 80%;
  border: 1px solid grey;
- background-color: cornsilk;
+/*background-color: rgba(120, 230, 190, 0.5);*/
+ background-color: white;
  font-weight: bold;
  font-family: sans-serif,monospace,verdana,roboto;
  margin-left: 10%;
@@ -110,6 +113,7 @@ top: 18px;
  padding-bottom: 5px;
 
 }
+
 .Data_Table{
  margin: 0 auto;
  user-select: none;
@@ -118,7 +122,7 @@ top: 18px;
 
 .Search{
  resize: none;
- height: 35px; 
+ height: 30px; 
  width: 80%;
  padding: 15px 30px;
  font-weight: lighter;
@@ -132,23 +136,25 @@ top: 18px;
  user-select: none;
  content-editable: none;
  padding: 8px 15px;
- 
 
 }
+
 .Back{
  text-decoration: none;
 
 }
+
 .Robot_Logo{
- height: 100px;
+ height: 110px;
  width: 150px;
  margin: 0 auto;
  margin-top: 5px;
 
 }
+
 .Robot_Image{
- height: 100px;
- width: 120px;
+ height: 110px;
+ width: 130px;
 }
 
 /*----------------------------
@@ -157,7 +163,9 @@ top: 18px;
 .Display_Card{
  height: 260px;
  width: 80%;
-/* background-color: rgba(green red yellow 0.5);*/
+ /*background-color: rgba(255, 200, 180, 0.9);*/
+ background-color: cornsilk;
+ color: black;
  border: 1px solid grey;
  margin-left: 10%;
  margin-top: 10px;
@@ -174,12 +182,13 @@ top: 18px;
 /*------------------------------
    Media Query Responsiv Works
  -------------------------------*/
- @media only screen and (min-width: 400px){
+ @media only screen and (max-width: 500px){
   .Left_Bar
   {
      float: left;
-     background-color: red;
+     background-color: deeppink;
      color: white;
+     user-select: none;
      padding: 5px 6px;
      border-radius: 3px;
      position: relative;

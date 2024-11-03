@@ -15,6 +15,7 @@ function MyRobot()
       'discover'     : 'This Robot is Discover 30-11-2024 by The Habib Engineer.',
       'goodbye'      : 'Ok Thanks.',
       'ok'           : 'Good Bye Thanks.',
+      'hello'       : 'You Can Tell.',
       'salam'        : 'Assalamualaikum',
       'salamReply'   : 'Oyalaikumussalam Oyarahmatullahy Oyabarkatu.\n\n Assalamualaikum.?',
 
@@ -64,7 +65,11 @@ function MyRobot()
     else if (searchText == "age")
    {
      textShow.innerText = dataStore[0].age;   
-   }       
+   } 
+    else if (searchText == "hi" || searchText == "hello")
+   {
+     textShow.innerText = dataStore[0].hello;   
+   }         
    else{  
       textShow.innerHTML = "<P style='color: red;'>The Value is Not Matching.</p>";
    }
