@@ -76,6 +76,37 @@ function MyRobot()
 
 
 
-
-
 }
+
+
+/*------------------------------------
+      Scroll Top Button Working
+ -------------------------------------*/
+
+ let myButton = document.getElementById("TopBtn");
+    window.onscroll = function()
+    {
+     ScrollFunction();
+    };
+
+
+    function ScrollFunction() 
+    {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+        {
+         myButton.style.display="block";
+        }
+        else{
+          myButton.style.display="none";
+        }
+    }
+
+
+    function TopFunction()
+    {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+
+    }
+
+/*-------------...Scroll Button End...----------------*/
