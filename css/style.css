@@ -1,0 +1,200 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+background-color: white;
+background-image: url("../images/flower.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+ 
+}
+
+.Address_Bar{
+ height: 100px;
+ width: 100%;
+ background-color: lavender;
+
+}
+
+.Left_Bar{
+ float: left;
+ background-color: limegreen;
+ color: white;
+ user-select: none;
+ padding: 5px 12px;
+ border-radius: 3px;
+ position: relative;
+ top: 25px;
+ left: 10px;
+
+}
+.Right_Bar{
+ float: right;
+ padding-right: 10px;
+ position: relative;
+ top: 10px;
+ line-height: 1.5;
+ 
+}
+.Right_Bar p{
+ font-weight: bold;
+
+}
+
+.Right_Bar p a{
+ text-decoration: none;
+ font-weight: bold;
+
+}
+
+.Right_Bar p a:hover{
+ text-decoration: underline;
+ color: limegreen;
+ font-weight: bold;
+
+}
+
+.Menu_Bar{
+ height: 60px;
+ width: 100%;
+ background-color: ghostwhite;
+
+}
+.Menu_Bar ul li{
+list-style: none;
+display: inline;
+font-weight: bold;
+font-size: 18px;
+font-family: arial,monospace,verdana;
+padding-left: 25px;
+position: relative;
+top: 18px;
+
+}
+
+.Menu_Bar ul li a{
+ text-decoration: none;
+ padding: 5px 15px;
+ font-family: arial,monospace,verdana;
+
+}
+.Menu_Bar ul li a:hover{
+ text-decoration: none;
+ background-color: deepskyblue;
+ color: white;
+ padding: 5px 15px;
+
+}
+
+.Acitve{
+ background-color: deepskyblue;
+ color: white;
+ padding: 5px 15px;
+
+}
+
+/*-------------------------
+    Robot Works Content
+ --------------------------*/
+
+.Robot_Searchbar{
+ height: auto;
+ width: 80%;
+ border: 1px solid grey;
+/*background-color: rgba(120, 230, 190, 0.5);*/
+ background-color: white;
+ font-weight: bold;
+ font-family: sans-serif,monospace,verdana,roboto;
+ margin-left: 10%;
+ margin-top: 15px;
+ padding-bottom: 5px;
+
+}
+
+.Data_Table{
+ margin: 0 auto;
+ user-select: none;
+
+}
+
+.Search{
+ resize: none;
+ height: 30px; 
+ width: 80%;
+ padding: 15px 30px;
+ font-weight: lighter;
+ font-size: 18px;
+
+
+}
+
+.Button{
+ cursor: pointer;
+ user-select: none;
+ content-editable: none;
+ padding: 8px 15px;
+
+}
+
+.Back{
+ text-decoration: none;
+
+}
+
+.Robot_Logo{
+ height: 110px;
+ width: 150px;
+ margin: 0 auto;
+ margin-top: 5px;
+
+}
+
+.Robot_Image{
+ height: 110px;
+ width: 130px;
+}
+
+/*----------------------------
+    Display Card Work
+ ----------------------------*/
+.Display_Card{
+ height: 260px;
+ width: 80%;
+ /*background-color: rgba(255, 200, 180, 0.9);*/
+ background-color: cornsilk;
+ color: black;
+ border: 1px solid grey;
+ margin-left: 10%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ text-align: left;
+
+ }
+ .Text_Show{
+  padding: 10px 30px;
+  font-family: sans-serif,monospace,verdana,roboto;
+  
+ }
+
+/*------------------------------
+   Media Query Responsiv Works
+ -------------------------------*/
+ @media only screen and (max-width: 500px){
+  .Left_Bar
+  {
+     float: left;
+     background-color: deeppink;
+     color: white;
+     user-select: none;
+     padding: 5px 6px;
+     border-radius: 3px;
+     position: relative;
+     top: 25px;
+     left: 5px;
+
+     }
+
+ }
