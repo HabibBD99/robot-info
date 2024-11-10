@@ -177,7 +177,7 @@ function MyRobot()
              SpeakSound.text = RobotDataStore[0].hello;
              SpeakSound.volume = 10;
         const voices = speechSynthesis.getVoices()
-             SpeakSound.voice = voices[1];
+             SpeakSound.voice = voices[3];
       window.speechSynthesis.speak(SpeakSound);    
    }
         
