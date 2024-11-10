@@ -42,8 +42,9 @@
 				<tr>
 					<td></td>
 				</tr>
+				<tr>
 					<td>
-						<textarea name="text" class="Search" id="search_text"></textarea> 
+						<textarea name="text" class="Search" id="search_text" onfocus="TextClear()"></textarea> 
 					</td>
 				</tr>
 				<tr>
@@ -59,7 +60,9 @@
 
 	     <div class="Display_Card">
 	      	<p id="Text_Show" class="Text_Show"></p>
-	     </div>  
+	     </div> 
+
+	     <button type="button" id="TopBtn" onclick="TopFunction()">Top</button> 
 </content>
 
 
