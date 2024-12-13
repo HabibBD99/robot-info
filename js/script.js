@@ -62,7 +62,7 @@ function MyRobot()
 
        {
         'question' : 'When was discover this robot?', 
-        'answer'   : 'This Robot is Discover 30-11-2024 by The Habib Engineer.'
+        'answer'   : 'This Robot is Discover 30 November 2024 by The Habib Engineer.'
        },
 
        {
