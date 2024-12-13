@@ -134,7 +134,6 @@ top: 18px;
 .Button{
  cursor: pointer;
  user-select: none;
- content-editable: none;
  padding: 8px 15px;
 
 }
@@ -153,8 +152,11 @@ top: 18px;
 }
 
 .Robot_Image{
- height: 110px;
+ height: 100px;
  width: 130px;
+ position: relative;
+ top: 6px;
+
 }
 
 /*----------------------------
